@@ -21,6 +21,14 @@ ul{
 	background-color: rgba(146, 180, 255, 1);
 }
 
+.navbar-toggler{
+	border-color: white;
+}
+
+.navbar-toggler-icon{
+	color: white;
+}
+
 .navbar img{
 	width: 80px; 
 	height: 80px;

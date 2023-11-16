@@ -15,19 +15,24 @@
 			}
 		});
 	});
-	window.addEventListener('scroll', fixNavbar);
-	function fixNavbar(){
-		const navHeader = document.querySelector('header');
-		console.log(navHeader);
-		if(window.pageYOffset >= 140){
-			if (!(navHeader.classList.contains('header-fixed'))) {
-				navHeader.classList.add('header-fixed');
-			}
-		}
-		else{
-			if (navHeader.classList.contains('header-fixed')) {
-				navHeader.classList.remove('header-fixed');
-			}
-		}
-	}
+	// window.addEventListener('scroll', fixNavbar);
+	// function fixNavbar(){
+	// 	const navHeader = document.querySelector('header');
+	// 	console.log(navHeader);
+	// 	if(window.pageYOffset >= 140){
+	// 		if (!(navHeader.classList.contains('header-fixed'))) {
+	// 			navHeader.classList.add('header-fixed');
+	// 		}
+	// 	}
+	// 	// else if(window.pageYOffset == 135){
+	// 	// 	if (navHeader.classList.contains('header-fixed')) {
+	// 	// 		navHeader.classList.remove('header-fixed');
+	// 	// 	}
+	// 	// }
+	// 	else{
+	// 		if (navHeader.classList.contains('header-fixed')) {
+	// 			navHeader.classList.remove('header-fixed');
+	// 		}
+	// 	}
+	// }
 })();
